@@ -23,17 +23,23 @@ WebUI.maximizeWindow()
 
 WebUI.waitForElementPresent(findTestObject('Login page'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('Login page')
+
 WebUI.verifyElementPresent(findTestObject('Username text field'), 0)
 
-WebUI.setText(findTestObject('Username text field'), '')
+WebUI.setText(findTestObject('Username text field'), GlobalVariable.username)
 
 WebUI.verifyElementPresent(findTestObject('Password text field'), 0)
 
 WebUI.setText(findTestObject('Password text field'), '1')
 
+WebUI.takeScreenshotAsCheckpoint('User filled up integer 1 on password')
+
 WebUI.click(findTestObject('Button login'))
 
-WebUI.verifyElementPresent(findTestObject('Invalid blank username notification'), 0)
+WebUI.verifyElementPresent(findTestObject('Invalid username and or password notification'), 0)
+
+WebUI.takeScreenshotAsCheckpoint('Invalid password')
 
 WebUI.closeBrowser()
 

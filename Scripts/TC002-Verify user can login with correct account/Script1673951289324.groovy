@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.waitForElementPresent(findTestObject('Login page'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('Login Page', [])
+
 WebUI.verifyElementPresent(findTestObject('Username text field'), 0)
 
 WebUI.setText(findTestObject('Username text field'), GlobalVariable.username)
@@ -31,11 +33,15 @@ WebUI.verifyElementPresent(findTestObject('Password text field'), 0)
 
 WebUI.setText(findTestObject('Password text field'), GlobalVariable.password)
 
+WebUI.takeScreenshotAsCheckpoint('User filled correct account', [])
+
 WebUI.verifyElementClickable(findTestObject('Button login'))
 
 WebUI.click(findTestObject('Button login'))
 
 WebUI.waitForElementPresent(findTestObject('Home page'), 0)
+
+WebUI.takeScreenshotAsCheckpoint('Home Page', [])
 
 WebUI.closeBrowser()
 

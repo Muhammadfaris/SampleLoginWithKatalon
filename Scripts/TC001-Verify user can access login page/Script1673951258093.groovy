@@ -27,5 +27,7 @@ WebUI.verifyElementPresent(findTestObject('Username text field'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Login wrapper'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('Login Page', [])
+
 WebUI.closeBrowser()
 
