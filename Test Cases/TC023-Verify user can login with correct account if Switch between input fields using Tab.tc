@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC023-Verify user can login with correct account if Switch between input fields using Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd2fd5f3-a0dc-4ba4-a81c-fc1139bd3263</testCaseGuid>
+</TestCaseEntity>

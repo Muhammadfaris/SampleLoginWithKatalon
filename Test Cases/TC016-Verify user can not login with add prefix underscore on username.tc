@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016-Verify user can not login with add prefix underscore on username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1882634-e8a8-4290-a949-82706c2fe309</testCaseGuid>
+</TestCaseEntity>

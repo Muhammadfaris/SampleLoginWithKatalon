@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018-Verify user can not login with add suffix underscore on username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b78a6eec-4d9f-4aa7-925b-deff5ae50d8e</testCaseGuid>
+</TestCaseEntity>

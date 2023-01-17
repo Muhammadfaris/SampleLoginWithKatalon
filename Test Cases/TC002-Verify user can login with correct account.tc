@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Verify user can login with correct account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4d24a5d-93cf-43a3-a966-4bd18c1fcd8c</testCaseGuid>
+</TestCaseEntity>

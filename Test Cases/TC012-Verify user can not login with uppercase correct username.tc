@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012-Verify user can not login with uppercase correct username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f5f8b9c-acad-4671-835c-504d55b9f722</testCaseGuid>
+</TestCaseEntity>

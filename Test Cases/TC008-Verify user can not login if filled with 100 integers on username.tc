@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008-Verify user can not login if filled with 100 integers on username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3171e67-cc6e-4afc-88b9-ab9c58ea4147</testCaseGuid>
+</TestCaseEntity>

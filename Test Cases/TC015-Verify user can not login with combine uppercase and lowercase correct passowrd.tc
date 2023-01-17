@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015-Verify user can not login with combine uppercase and lowercase correct passowrd</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc889dfc-6c35-4054-9908-4f36e973caec</testCaseGuid>
+</TestCaseEntity>
