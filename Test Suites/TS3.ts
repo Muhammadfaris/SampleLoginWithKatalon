@@ -43,7 +43,7 @@
       <guid>5e8ec504-9904-4837-830a-710f33c62a19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC025-Verify uset that once user logged out, clicking forward does not make user log in again</testCaseId>
+      <testCaseId>Test Cases/TC025-Verify user that once logged out, clicking forward does not make user log in again</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

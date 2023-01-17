@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Password text field'), '1')
 
 WebUI.click(findTestObject('Button login'))
 
-WebUI.verifyElementPresent(findTestObject('Invalid username and or password notification'), 0)
+WebUI.verifyElementPresent(findTestObject('Invalid blank username notification'), 0)
 
 WebUI.closeBrowser()
 

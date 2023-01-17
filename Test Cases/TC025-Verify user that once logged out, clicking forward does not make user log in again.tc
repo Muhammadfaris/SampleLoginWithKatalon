@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC025-Verify uset that once user logged out, clicking forward does not make user log in again</name>
+   <name>TC025-Verify user that once logged out, clicking forward does not make user log in again</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>17377358-ea1e-43d3-b5cc-e9d349876ea4</testCaseGuid>
